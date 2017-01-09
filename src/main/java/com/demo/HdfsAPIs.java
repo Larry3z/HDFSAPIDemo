@@ -1,3 +1,5 @@
+package com.demo;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.hdfs.DistributedFileSystem;
@@ -9,7 +11,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Date;
 
-public class HdfsTest {
+public class HdfsAPIs {
     
     //创建新文件
     public static void createFile(String dst , byte[] contents) throws IOException{
